@@ -1,10 +1,7 @@
 <?php
 // Contact Form
 $locale['400'] = "Kontaktujte nás";
-$locale['401'] = "Je více způsobů, jak nás můžete kontaktovat. E-mailem na  
-".hide_email($settings['siteemail']).". Pokud jste registrovaní členové, můžete nám zaslat
-<a href='messages.php?msg_send=1'>soukromou zprávu</a>. 
-Popřípadě můžete použít tento formulář, který nám zašle vaší zprávu na email.";
+$locale['401'] = "Je více způsobů, jak nás kontaktovat. E-mailem na [SITE_EMAIL]. A nebo, pokud jste registrovaní členové, můžete nám zaslat [PM_LINK]. Případně můžete použít tento formulář, který nám zašle vaší zprávu na náš e-mail.";
 $locale['402'] = "Jméno:";
 $locale['403'] = "E-mailová adresa:";
 $locale['404'] = "Předmět:";
