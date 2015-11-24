@@ -15,7 +15,7 @@ $locale['u051'] = "Skrýt Email?";
 $locale['u052'] = " Ano ";
 $locale['u053'] = " Ne";
 $locale['u054'] = "Zobrazit záznam suspendací";
-$locale['u055'] = "Status uživatele:";
+$locale['u055'] = "Stav/představení uživatele:";
 $locale['u056'] = "Důvod";
 $locale['u057'] = "Uživatelské skupiny";
 $locale['u058'] = "Možnosti administrátora";
@@ -33,7 +33,6 @@ $locale['u070'] = "Ban";
 $locale['u071'] = "Suspendovat";
 $locale['u072'] = "Vymazat";
 $locale['u073'] = "Vymazat tohoto uživatele?";
-
 // Profile and register
 $locale['u100'] = "V případě že chcete změnit své heslo nebo emailovou adresu <br />musíte zadat Vaše stávající heslo.";
 $locale['u101'] = "Registrovat";
@@ -42,32 +41,45 @@ $locale['u103'] = "Profil";
 $locale['u104'] = "Profil uživatele pro";
 $locale['u105'] = "Aktualizovat profil";
 
+// New UF 1.20
+$locale['uf_100'] = "Obecná Nastavení účtu";
+$locale['uf_101'] = "Uživateleské informace - Nastavení";
+$locale['uf_102'] = "Avatar uživatele - Nastavení";
+$locale['uf_103'] = "Hlavní nastavení";
+$locale['uf_104'] = "Informace o uživateli";
+$locale['uf_105'] = "Profilová fotka";
+$locale['uf_106'] = "Základní informace";
+$locale['uf_107'] = "%s nemá žádné dostupné informace o uživateli";
+$locale['uf_108'] = "Žádné uživatelské pole nejsou definované";
+
 // View User Groups
 $locale['u110'] = "Zobrazit uživatelksou skupinu";
 $locale['u111'] = "%u uživatel";
 $locale['u112'] = "%u uživatelé";
 $locale['u113'] = "Uživatelské jméno";
 $locale['u114'] = "Typ uživatele";
-
 // User name and email
-$locale['u120'] = "Uživatelské jméno obsahuje neplatné znaky.";
-$locale['u121'] = "Vybrané uživatelské jméno je již používáno jiným uživatelem.";
-$locale['u122'] = "Uživatelské jméno nelze ponechat prázdné.";
-$locale['u123'] = "Vaše emailová adresa není platná.";
-$locale['u124'] = "Vaše emailová adresa nebo emailová doména je nejspíše na černé listině.";
-$locale['u125'] = "Emailová adresa je již používána jiným uživatelem.";
-$locale['u126'] = "Nelze vynechat email.";
+$locale['u120'] = "Uživatelské jméno obsahuje neplatné znaky";
+$locale['u121'] = "Vybrané uživatelské jméno je již používáno jiným uživatelem";
+$locale['u122'] = "Uživatelské jméno nelze ponechat prázdné";
+$locale['u123'] = "Vaše emailová adresa není platná";
+$locale['u124'] = "Vaše emailová adresa nebo emailová doména je nejspíše na černé listině";
+$locale['u125'] = "Emailová adresa je již používána jiným uživatelem";
+$locale['u126'] = "Nelze vynechat email";
 $locale['u127'] = "Uživatelské Jméno";
 $locale['u128'] = "Emailová Adresa";
 $locale['u129'] = "Informace o účtu";
-
 // Passwords
 $locale['u130'] = "Administrační heslo";
 $locale['u131'] = "Administrační heslo";
 $locale['u132'] = "Přihlašovací heslo";
 $locale['u133'] = "Přihlašovací heslo";
 $locale['u134'] = "Nové přihlašovací heslo";
-$locale['u135'] = "Potvrdit heslo";
+$locale['u134a'] = "Nastavit heslo";
+$locale['u134b'] = "Zopakovat heslo";
+$locale['u135a'] = "Aktuální heslo";
+$locale['u135b'] = "Nastavit nové heslo";
+$locale['u135c'] = "Opakovat nové heslo";
 $locale['u136'] = "Nelze vynechat heslo.";
 $locale['u137'] = "Nelze vynechat Vaše administrační heslo.";
 $locale['u138'] = "Nelze vynechat Vaše přihlašovací heslo.";
@@ -76,17 +88,16 @@ $locale['u140'] = "Administrační heslo se neshoduje s Vaším nynějším hesl
 $locale['u141'] = " nesmí být stejné jako ";
 $locale['u142'] = " je příliš krátké nebo obsahuje nepovolené znaky!";
 $locale['u143'] = " se neshoduje!";
-$locale['u143a'] = " nelze vynechat prázdné.";
-$locale['u144'] = "Nové administrační heslo";
-$locale['u145'] = "Potvrzení administračního hesla";
-$locale['u146'] = " nesmí se shodovat s Vaším nynějším heslem ";
+$locale['u143a'] = " nelze nechat prázdné.";
+$locale['u144'] = "Nové heslo administrátora";
+$locale['u145'] = "Potvrdit heslo administrátora";
+$locale['u146'] = " pozor (!) nesmí se shodovat s Vaším dosavadním heslem ";
 $locale['u147'] = "Heslo musí být dlouhé 8 až 64 znaků.<br />Povolené znaky jsou a-z, 0-9 a @!#$%&\/()=-_?+*.,:;";
 $locale['u148'] = "Nová přihlašovací hesla se neshodují.";
 $locale['u148a'] = "Nová administrační hesla se neshodují.";
 $locale['u149'] = "Vaše přihlašovací heslo nebylo zadáno nebo je nesprávné.";
-$locale['u149a'] = "vaše administrační heslo nebylo zadáno nebo je nesprávné.";
-$locale['u149b'] = "Vaše přihlašovací heslo nebylo zadáno nebo je nesprávné.<br />Nemůžete si zvolit administrační heslo bez správného přihlašovacího hesla.";
-
+$locale['u149a'] = "vaše aktuální administrační heslo nebylo zadáno nebo je nesprávné.";
+$locale['u149b'] = "Vaše aktuální přihlašovací heslo nebylo zadáno nebo je nesprávné.<br />Nemůžete si zvolit administrační heslo bez správného přihlašovacího hesla.";
 // Email actiation
 $locale['u150'] = "Vaše registrace je téměř hotová, nyní obdržíte Vaše přihlašovací údaje a odkaz pro ověření Vašeho účtu.";
 $locale['u151'] = "Vítejte na ".$settings['sitename'];
@@ -117,12 +128,10 @@ $locale['u171'] = "Váš účet byl ověřen.";
 $locale['u172'] = "Člen byl úspěšně přidán.";
 $locale['u173'] = "Zpět na Administraci uživatelů.";
 $locale['u174'] = "Přidat dalšího člena.";
-
 // Avatar upload
-$locale['u180'] = "Váš avatar překročil povolenou velikost souboru, povolená velikost je ".parsebytesize($settings['avatar_filesize']).".";
-$locale['u181'] = "Váš avatar je nejspíše v nepodporovaném formátu obrázku, podporované typy obrázku jsou jpg, png a gif.";
-$locale['u182'] = "Váš avatar překročil ".$settings['avatar_width']."x".$settings['avatar_height']." pixelů.";
-$locale['u183'] = "Váš avatar nebyl správně nahrán.";
+$locale['u180'] = "Došlo k chybě nahrávání avatar obrázku.";
+
+
 $locale['u184'] = "Maximální velikost souboru: %s / Maximální velikost: %ux%u pixelů";
 $locale['u185'] = "Avatar";
 $locale['u186'] = "Pro nahrání obrázku klikněte na Vybrat soubor";
