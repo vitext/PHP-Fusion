@@ -1,5 +1,4 @@
 <?php
-<?php
 /*pc-politika.cz/locale/Czech/admin/fields.php, 26.11.2015, 08:51, Kvido*/
 // New locale pro Quantum Fields
 $locale['fields_0100'] = 'Tato stránka přidává pole přímo do tabulky:% s';
