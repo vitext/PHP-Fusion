@@ -1,8 +1,8 @@
 <?php
 // Infusion titles & description
-$locale['apw_title'] = "Restart hesel administrátorů";
+$locale['apw_title'] = "Obnova hesla administratora";
 $locale['apw_desc'] = "Mění přihlašovací/administrační hesla administrátorů";
-$locale['apw_admin1'] = "Restart Administrátora";
+$locale['apw_admin1'] = "Obnova Administrátora";
 
 $locale['400'] = "Administrátoři k restartu:";
 $locale['401'] = "Všichni Administrátoři";
